@@ -17,7 +17,7 @@ docker run -d \
   -p 8086:8086 \
   -v /path/for/influxdb:/var/lib/influxdb \
   -v /path/for/grafana:/var/lib/grafana \
-  philhawthorne/docker-influxdb-grafana:latest
+  oester/docker-influxdb-grafana:latest
 ```
 
 To stop the container launch:
