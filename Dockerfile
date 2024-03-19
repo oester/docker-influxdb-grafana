@@ -34,8 +34,9 @@ RUN rm /var/lib/apt/lists/* -vf \
         net-tools \
         supervisor \
         wget \
+        musl \
         gnupg \
-    && curl -sL https://deb.nodesource.com/setup_10.x | bash - \
+    && curl -sL https://deb.nodesource.com/setup_21.x | bash - \
     && apt-get install -y nodejs \
     && mkdir -p /var/log/supervisor \
     && rm -rf .profile \
