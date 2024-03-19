@@ -1,5 +1,5 @@
 # FROM debian:stretch-slim
-FROM debian:stable-slim
+FROM debian:bullseye-slim
 LABEL maintainer="Bob Oesterlin"
 
 ENV DEBIAN_FRONTEND noninteractive
